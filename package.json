@@ -1,0 +1,32 @@
+{
+  "name": "profile-awesome",
+  "version": "1.0.0",
+  "description": "A profile picture generator for lazy users who don't upload a photo.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everton-r-franca/profile-awesome.git"
+  },
+  "keywords": [
+    "picture",
+    "awesome",
+    "lazy",
+    "users"
+  ],
+  "author": "Everton Ribas de França <everton.r.franca@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/everton-r-franca/profile-awesome/issues"
+  },
+  "homepage": "https://github.com/everton-r-franca/profile-awesome#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
